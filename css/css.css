@@ -1,0 +1,491 @@
+@font-face {
+    font-family: 'Sequal';
+    src: URL('../fonts/Sequel100Black-95.ttf') format('truetype');
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-size: 16px;
+    position: relative;
+} 
+html, div, li, span, a, body,p,table, input, select{
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    font-family: 'Montserrat', sans-serif !important;
+    -webkit-overflow-scrolling: touch;
+}
+#container{
+    display: unset;
+}
+.contenedor2{
+    display: none;
+    background-color: #7aabbc;
+    width: 100%;
+    height: 100vh;
+    padding: 0.5em 1.1em;
+    box-sizing: border-box;
+ }
+ .contenedor2 .prletras{
+    margin: 0;
+    margin-top: 1.5em;
+    padding: 0;
+    color: rgb(253, 232, 232);
+    list-style: none;
+
+
+}
+#submenu{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor2 .hletras{
+    margin: 0;
+    font-size: 0.75em;
+    color: rgb(241, 241, 241);
+    font-weight: 500;
+    padding-left: 0.4em;
+    padding-bottom: 1.6em;
+}
+.quitar{
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+    transition-duration: 0.1s;
+    color:rgb(241, 241, 241);
+    font-size: 0.75em;
+    margin-right: -1em;
+
+}
+.quitar:hover{
+    background-color: cadetblue;
+}
+#c2imagen1 img{
+    width: 4.6em;
+    height: 1.5em;
+}
+html, div, li, span, a, body,p,table, input, select{
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    font-family: 'Montserrat', sans-serif !important;
+    -webkit-overflow-scrolling: touch;
+}
+#superior{
+    background-image: url(../img/background/hero.png);
+    align-items: center;
+    padding: 0.65em 1.1em;
+    box-sizing: border-box;
+}
+header{
+
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    align-items: center;
+
+
+}
+header img{
+    width: 4.6em;
+    height: 1.85em;
+    padding: 0;
+    margin-right: -0.2em;
+}
+#menu{
+    width: 0.85em;
+    height: 1em;
+    padding: 0;
+    cursor: pointer;
+}
+#menu2{
+    display: none;
+    width: 11.8em;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu2 .botonp{
+    font-weight: bold;
+    padding: 0;
+    background-color: white;
+    font-family: 'Sequal';
+    cursor: pointer;
+    color: #7aabbc;
+    width: 10.5em;
+    height: 2.6em;
+    font-size: 0.64em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+#contenedor3{
+    display: flex;
+}
+select{
+    border: none;
+    background-color: unset;
+    color: white;
+    font-family: 'Noto Sans TC';
+    font-size: 0.82em;
+    margin-bottom: 0.35em;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+
+}
+option{
+    background-color: #7aabbc;
+}
+
+#menu2 #mundo img{
+    cursor: pointer;
+    width: 0.9em;
+    padding:0;
+}
+#menu2 div p{
+    font-size: 0.9em;
+    font-weight: normal;
+}
+#menu img{
+    width: 100%;
+    height: 100%;
+}
+
+#logo2{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:8.5em 1em;
+box-sizing: border-box;
+margin-bottom: 2em;
+    
+}
+#logo2 img{
+    width: 8em;
+}
+p{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 0.5em;
+    padding: 0;
+    margin: 0.6em ;
+    font-weight: 700;
+}
+button{
+    
+    background-color: #7aabbc;
+    width: 12em;
+    padding: 0.5em;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    border: none; 
+    font-family: 'Noto Sans TC';
+}
+
+#medio{
+    background-color: #7aabbc;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1em;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+#medio p{
+    margin: 0;
+    font-weight: 450;
+    margin-bottom: 1.9em;
+    font-size: 0.65em ;
+    text-align: center;
+}
+#medio button{
+    background-color: white;
+    color: black;
+    transition-duration: 0.1s;
+    color: #7aabbc;
+    width: 100%;
+    
+}
+#medio button:hover{
+    background-color: cadetblue;
+}
+section{
+    background-color: white;
+    width: 100%;
+}
+
+#choose{
+    text-align: center;
+    width: 100%;
+    color: #7aabbc;
+    font-family: 'Sequal', 'Montserrat', sans-serif !important;
+    font-weight: 800;
+    padding-top: 1.35em;
+    box-sizing: border-box;
+}
+#nivel{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 1.3em;
+    box-sizing: border-box;
+    background-color: white;
+}
+.level{
+    background-color: white;
+    margin: 15%;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0.8em;
+    padding: 1.3em;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+}
+.letraslevel{
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 1000;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 0.1em;
+    color: rgb(80, 79, 79);
+    
+}
+.level small{
+    padding-bottom: 3em;
+    padding-left: 2.2em;
+    padding-right: 2.2;
+    margin-bottom:0; 
+}
+.level p{
+    color: rgb(80, 79, 79);
+    text-align: left;
+    font-size: 0.4em;
+    margin: 0;
+    padding: 0.5em 0em;
+
+}
+.level button{
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    justify-content: center;
+}
+div#nivel2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7aabbc;
+    padding: 1em 1.7em;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+#boto{
+    width: 100%;
+}
+.level div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: 1.2em;
+    font-size: 0.45em;
+    font-family: 'Sequal';
+    padding-bottom: 3em;
+}
+ul li{
+    margin-bottom: 4%;
+    font-weight: 600;
+    color:rgb(80, 79, 79);
+}
+
+.boton4{
+    background-color: #7aabbc;
+    width: 100%;
+    padding: 1.25em;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    border: none; 
+    font-family: 'Noto Sans TC';
+    height: 1.9em;
+    font-size: 0.6em;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+
+}
+.bajar{
+    margin-bottom: 0;
+    width: 100%;
+}
+#mensaje{
+    width: 100%;
+    align-items: center;
+    padding-bottom:0.6em ;
+    box-sizing: border-box;
+    background-color: #7aabbc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 0em;
+    font-size: 0.72em;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7aabbc;
+    width: 100%;
+    padding: 2.1em;
+    box-sizing: border-box;
+}
+footer .Textfooter{
+    display: flex;
+    flex-direction: column;
+}
+footer .texto{
+    color: white;
+    font-size: 0.5em;
+    margin-top: 0.4em;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+footer img{
+    width: 2.4em;
+}
+
+
+
+@media screen and (min-width: 993px){
+ .landscape button{
+    width: 14.8em;  
+    padding: 0.5em;  
+ }
+ .landscape ul{
+    height: 60%;
+    font-size: 0.8em;
+    padding-bottom: 1.85em;
+}
+ .landscape #menu{
+     display: none;
+ }
+ .landscape #menu2{
+    display: flex;
+}
+
+.landscape #logo2 img{
+    width: 26em;
+}
+.landscape #logo2 p{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.landscape #medio{
+    padding: 1.68em;
+}
+.landscape #medio button{
+    width: 14.8em;
+}
+.landscape #medio p{
+    font-size: 0.82em;
+    margin-bottom: 1.9em;
+}
+.landscape div#nivel2 {
+    display: flex;
+    flex-flow: row;
+    flex-direction: unset;
+    align-items: unset;
+    padding: 1em;
+}
+.landscape #choose{
+ font-size: 2.1em;
+ margin-top: 1.75em;
+}
+.landscape header img{
+    width: 6.4em;
+    height: 2.4em;
+    padding: 0;
+}
+.landscape #superior{
+    padding: 0.65em 3.2em;
+}
+.landscape  .verp{
+    display: unset;
+
+}
+.landscape  .vers{
+    display: none;
+
+}
+#choose{
+    padding-top: 0;
+}
+.landscape .level{
+    width: 22.2em;
+    padding: 2em;
+}
+.landscape .level p{
+    font-size: 0.8em;
+}
+.landscape.boton4{
+    font-size: 0.8em;
+}
+.landscape #mensaje{
+    font-size: unset;
+    padding-top: 0.8em;
+}
+.landscape #nivel{
+    padding: 1.5em 3.2em;
+}
+.landscape footer{
+    margin-top: 1.8em;
+}
+.landscape footer .texto{
+    font-size: 0.75em;
+}
+.landscape footer img{
+    width: 3.2em;
+}
+.landscape #logo2{
+    padding-top:5.5em ;
+    padding-bottom: 6em;
+    margin-bottom: 2em;
+        
+}
+.landscape .contenedor2 li{
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(241, 241, 241);
+    padding-top: 1.5em;
+}
+.landscape .contenedor2 ul{
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+    color: rgb(253, 232, 232);
+    list-style: none;
+
+
+}
+
+}
